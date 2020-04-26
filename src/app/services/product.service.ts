@@ -8,7 +8,7 @@ import { ProductModel } from '../models/product.model';
 })
 export class ProductService {
 
-    apiURL = "http://shielded-journey-23752.herokuapp.com/public/api/";
+    apiURL = "https://shielded-journey-23752.herokuapp.com/public/api/";
 
     constructor(private http: HttpClient) { }
 
